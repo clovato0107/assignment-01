@@ -4,3 +4,25 @@
 /* Every element must be styled. */
 /* Create style rules using class, id, and element selectors. */
 /* --> */
+body {
+  background-color: blueviolet;
+}
+/* heading color */
+h1 {
+  color: pink;
+}
+/* style box around the navigation bar */
+div {
+  background-color: cornflowerblue;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.shadow-text {
+  text-shadow: gray 1px 1px;
+}
+
+#large-paragraph {
+  font-size: 30 px;
+}
