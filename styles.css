@@ -5,24 +5,46 @@
 /* Create style rules using class, id, and element selectors. */
 /* --> */
 body {
-  background-color: blueviolet;
+  background-color: rgb(160, 160, 161);
 }
 /* heading color */
 h1 {
-  color: pink;
+  color: rgb(112, 236, 236);
 }
-/* style box around the navigation bar */
+/* style box around the navigation bar here is an example of an element selector */
 div {
-  background-color: cornflowerblue;
+  background-color: rgb(112, 236, 236);
   border-style: solid;
   border-color: black;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .shadow-text {
   text-shadow: gray 1px 1px;
 }
-
+/* here is an example of an id selector */
 #large-paragraph {
   font-size: 30 px;
+}
+/* here is an example of a class selector */
+.every-even li:nth-child(even) {
+  background-color: rgba(160, 160, 160);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8 px;
+  text-align: left;
+  border-bottom: 1 px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(160, 160, 160);
+}
+tr:hover {
+  background-color: rgb(116, 116, 117);
 }
